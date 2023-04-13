@@ -1,0 +1,544 @@
+acceptance criteria:    The exit criteria that a component or system must satisfy in order to be accepted by a user, customer, or other authorized entity.
+acceptance testing:    Formal testing with respect to user needs, requirements, and business processes conducted to determine whether or not a system satisfies #the acceptance criteria and to enable the user, customers or other authorized entity to determine whether or not to accept the system.
+accessibility testing:    Testing to determine the ease by which users with disabilities can use a component or system.
+accuracy:    The capability of the software product to provide the right or agreed results or effects with the needed degree of precision.
+accuracy testing:    The process of testing to determine the accuracy of a software product
+actor:  User or any other person or system that interacts with the system under test in a specific way.
+actual result:  The behavior produced/observed when a component or system is tested.
+ad hoc testing:    The capability of the software product to be adapted for different specified environments without applying actions or means other than #those provided for this purpose for the software considered.
+agile software development:    A group of software development methodologies based on iterative incremental development, where requirements and solutions evolve through #collaboration between self-organizing cross- functional teams.
+agile testing:    Testing practice for a project using agile software development methodologies, incorporating techniques and methods, such as extreme #programming (XP), treating development as the customer of testing and emphasizing the test-first design paradigm.
+alpha testing:    Simulated or actual operational testing by potential users/customers or an independent test team at the developers’ site, but outside the #development organization. It is often employed for off- the-shelf software as a form of internal acceptance testing.
+analytical testing:    Testing based on a systematic analysis of e.g., product risks or requirements.
+analyzability:    The capability of the software product to be diagnosed for deficiencies or causes of failures in the software, or for the parts to be #modified to be identified.
+anomaly:    Any condition that deviates from expectation based on requirements specifications, design documents, user documents, standards, etc. or# from someone’s perception or experience.(See bug/defect, deviation, error, fault, failure, incident, problem.)
+anti-pattern:Repeated action, process, structure or reusable solution that initially appears to be beneficial and is commonly used but is ineffective #and/or counterproductive in practice.
+application programming interface testing:    Testing the code which enables communication between different processes, programs and/or systems. API Testing often involves negative #testing, e.g., to validate the robustness of error handling.
+assessment report:  A document summarizing the assessment results, e.g. conclusions, recommendations and findings.
+assessor:   A person who conducts an assessment; any member of an assessment team.
+atomic condition:    A condition that cannot be decomposed, i.e., a condition that does not contain two or more single conditions joined by a logical operator#(AND, OR, XOR).
+attack:    Directed and focused attempt to evaluate the quality, especially reliability, of a test object by attempting to force specific #failures to occur.
+attack-based testing:    An experience-based testing technique that uses software attacks to induce failures, particularly security related failures.
+audit:    An independent evaluation of software products or processes to ascertain compliance to standards, guidelines, specifications, and/or #procedures based on objective criteria.
+audit trail:    A path by which the original input to a process (e.g. data) can be traced back through the process, taking the process output as a #starting point. This facilitates defect analysis and allows a process audit to be carried out.
+automated testware: Testware used in automated testing, such as tool scripts.
+availability:   The degree to which a component or system is operational and accessible when required for use. Often expressed as a percentage.
+back-to-back testing:    Testing in which two or more variants of a component or system are executed with the same inputs, the outputs compared, and analyzed in #cases of discrepancies.
+balanced scorecard:    A strategic tool for measuring whether the operational activities of a company are aligned with its objectives in terms of business #vision and strategy.
+baseline:    A specification or software product that has been formally reviewed or agreed upon, that thereafter serves as the basis for further #development, and that can be changed only through a formal change control process.
+basic block:    A sequence of one or more consecutive executable statements containing no branches.
+basis test set:    A set of test cases derived from the internal structure of a component or specification to ensure that 100% of a specified coverage #criterion will be achieved.
+behavior:    The response of a component or system to a set of input values and preconditions.
+benchmark test:    (1) A standard against which measurements or comparisons can be made.(2) A test that is be used to compare components or systems to each #other or to a standard as in (1).
+bespoke software:    Software developed specifically for a set of users or customers. The opposite is off-the- shelf software.
+best practice:    A superior method or innovative practice that contributes to the improved performance of an organization under given context, usually #recognized as ‘best’ by other peer organizations.
+beta testing:    Operational testing by potential and/or existing users/customers at an external site not otherwise involved with the developers, to #determine whether or not a component or system satisfies the user/customer needs and fits within the business processes. It is often employed #as a form of external acceptance testing for off-the-shelf software in order to acquire feedback from the market.
+big-bang testing:    An integration testing approach in which software elements, hardware elements, or both are combined all at once into a component or an #overall system, rather than in stages.
+black box test design technique:    Procedure to derive and/or select test cases based on an analysis of the specification, either functional or non-functional, of a #component or system without reference to its internal structure.
+black box testing:    Testing, either functional or non-functional, without reference to the internal structure of the component or system.
+blocked test case:    A test case that cannot be executed because the preconditions for its execution are not fulfilled.
+bottom-up testing:    An incremental approach to integration testing where the lowest level components are tested first, and then used to facilitate the #testing of higher level components. This process is repeated until the component at the top of the hierarchy is tested.
+boundary value:    An input value or output value which is on the edge of an equivalence partition or at the smallest incremental distance on either side of #an edge, for example the minimum or maximum value of a range.
+boundary value analysis:    A black box test design technique in which test cases are designed based on boundary values.
+boundary value coverage:    The percentage of boundary values that have been exercised by a test suite.
+branch:    A basic block that can be selected for execution based on a program construct in which one of two or more alternative program paths is #available, e.g. case, jump, go to, if- then-else.
+branch coverage:    The percentage of branches that have been exercised by a test suite. 100% branch coverage implies both 100% decision coverage and 100% #statement coverage.
+branch testing:    A white box test design technique in which test cases are designed to execute branches.
+buffer:    A device or storage area used to store data temporarily for differences in rates of data flow, time or occurrence of events, or amounts #of data that can be handled by the devices or processes involved in the transfer or use of the data.
+buffer overflow:    A memory access failure due to the attempt by a process to store data beyond the boundaries of a fixed length buffer, resulting in #overwriting of adjacent memory areas or the raising of an overflow exception.
+bug:    A flaw in a component or system that can cause the component or system to fail to perform its required function, e.g. an incorrect #statement or data definition. If this is encountered during execution, it can lead to component or system failure.
+bug report:    A document reporting on any flaw in a component or system that can cause the component or system to fail to perform its required function.
+bug taxonomy:    A system of (hierarchical) categories designed to be a useful aid for reproducibly classifying bugs.
+bug tracking tool:    A tool that facilitates the recording and status tracking of bugs and changes. They often have workflow-oriented facilities to track and #control the allocation, correction and re-testing of bugs and provide reporting facilities.
+business process-based testing:   An approach to testing in which test cases are designed based on descriptions and/or knowledge of business processes.
+call graph: An abstract representation of calling relationships between subroutines in a program.
+causal analysis:    The analysis of defects to determine their root cause.
+cause-effect diagram:    A graphical representation used to organize and display the interrelationships of various possible root causes of a problem. Possible #causes of a real or potential defect or failure are organized in categories and subcategories in a horizontal tree-structure, with the #(potential) defect or failure as the root node.
+cause-effect graph:    A graphical representation of inputs and/or stimuli (causes) with their associated outputs (effects), which can be used to design test #cases.
+cause-effect graphing:    A black box test design technique in which test cases are designed from cause-effect graphs.
+certification:    The process of confirming that a component, system or person complies with its specified requirements, e.g. by passing an exam.
+change management:    (1) A structured approach to transitioning individuals, and organizations from a current state to a desired future state. #(2) Controlled way to effect a change, or a proposed change, to a product or service.
+changeability:  The capability of the software product to enable specified modifications to be implemented.
+checklist-based testing:    An experience-based test design technique whereby the experienced tester uses a high- level list of items to be noted, checked, or #remembered, or a set of rules or criteria against which a product has to be verified.
+classification tree:    A tree showing equivalence partitions hierarchically ordered, which is used to design test cases in the classification tree method.
+classification tree method:    A black box test design technique in which test cases, described by means of a classification tree, are designed to execute combinations#of representatives of input and/or output domains.
+code:    Computer instructions and data definitions expressed in a programming language or in a form output by an assembler, compiler or other #translator.
+code coverage:    An analysis method that determines which parts of the software have been executed (covered) by the test suite and which parts have not #been executed.
+co-existence:    The capability of the software product to co- exist with other independent software in a common environment sharing common resources.
+combinatorial testing:    A means to identify a suitable subset of test combinations to achieve a predetermined level of coverage when testing an object with #multiple parameters and where those parameters themselves each have several values, which gives rise to more combinations than are #feasible to test in the time allowed.
+compiler:    A software tool that translates programs expressed in a high order language into their machine language equivalents.
+complexity:    The degree to which a component or system has a design and/or internal structure that is difficult to understand, maintain and verify.
+compliance: The capability of the software product to adhere to standards, conventions or regulations in laws and similar prescriptions.
+compliance testing: The process of testing to determine the compliance of the component or system.
+component:  A minimal software item that can be tested in isolation.
+component integration testing:  Testing performed to expose defects in the interfaces and interaction between integrated components.
+component specification:    A description of a component’s function in terms of its output values for specified input values under specified conditions, and #required non-functional behavior.
+component testing:  The testing of individual software components.
+compound condition: Two or more single conditions joined by means of a logical operator (AND, OR or XOR), e.g. ‘A>B AND C>1000’.
+concurrency testing:    Testing to determine how the occurrence of two or more activities within the same interval of time, achieved either by interleaving #the activities or by simultaneous execution, is handled by the component or system.
+condition:    A logical expression that can be evaluated as True or False, e.g. A>B.
+condition coverage:    The percentage of condition outcomes that have been exercised by a test suite. 100% condition coverage requires each single condition #in every decision statement to be tested as True and False.
+condition outcome:  The evaluation of a condition to True or False.
+condition testing:  A white box test design technique in which test cases are designed to execute condition outcomes.
+confidence interval:    In managing project risks, the period of time within which a contingency action must be implemented in order to be effective in #reducing the impact of the risk.
+configuration:  The composition of a component or system as defined by the number, nature, and interconnections of its constituent parts.
+configuration auditing: The function to check on the contents of libraries of configuration items, e.g. for standards compliance.
+configuration control:    An element of configuration management, consisting of the evaluation, co-ordination, approval or disapproval, and implementation of #changes to configuration items after formal establishment of their configuration identification.
+configuration control board:    A group of people responsible for evaluating and approving or disapproving proposed changes to configuration items, and for ensuring #implementation of approved changes.
+configuration identification:    An element of configuration management, consisting of selecting the configuration items for a system and recording their functional #and physical characteristics in technical documentation.
+configuration item:    An aggregation of hardware, software or both, that is designated for configuration management and treated as a single entity in the #configuration management process.
+configuration management:    A discipline applying technical and administrative direction and surveillance to: identify and document the functional and physical #characteristics of a configuration item, control changes to those characteristics, record and report change processing and implementation #status, and verify compliance with specified requirements.
+configuration management tool:    A tool that provides support for the identification and control of configuration items, their status over changes and versions, and #the release of baselines consisting of configuration items.
+consistency:    The degree of uniformity, standardization, and freedom from contradiction among the documents or parts of a component or system.
+consultative testing:    Testing driven by the advice and guidance of appropriate experts from outside the test team (e.g., technology experts and/or business #domain experts).
+content-based model:    A process model providing a detailed description of good engineering practices, e.g. test practices.
+control chart:    A statistical process control tool used to monitor a process and determine whether it is statistically controlled. It graphically #depicts the average value and the upper and lower control limits (the highest and lowest values) of a process.
+control flow:   A sequence of events (paths) in the execution through a component or system.
+control flow analysis:    A form of static analysis based on a representation of unique paths (sequences of events) in the execution through a component or #system. Control flow analysis evaluates the integrity of control flow structures, looking for possible control flow anomalies such as #closed loops or logically unreachable process steps.
+control flow graph:    An abstract representation of all possible sequences of events (paths) in the execution through a component or system.
+control flow testing:    An approach to structure-based testing in which test cases are designed to execute specific sequences of events. Various techniques #exist for control flow testing, e.g., decision testing, condition testing, and path testing, that each have their specific approach and #level of control flow coverage.
+convergence metric:    A metric that shows progress toward a defined criterion, e.g., convergence of the total number of test executed to the total number #of tests planned for execution.
+conversion testing: Testing of software used to convert data from existing systems for use in replacement systems.
+corporate dashboard:    A dashboard-style representation of the status of corporate performance data.
+cost of quality:    The total costs incurred on quality activities and issues and often split into prevention costs, appraisal costs, internal failure #costs and external failure costs.
+coverage:   The degree, expressed as a percentage, to which a specified coverage item has been exercised by a test suite.
+coverage analysis:    Measurement of achieved coverage to a specified coverage item during test execution referring to predetermined criteria to determine #whether additional testing is required and if so, which test cases are needed.
+coverage item:    An entity or property used as a basis for test coverage, e.g. equivalence partitions or code statements.
+coverage tool:    A tool that provides objective measures of what structural elements, e.g. statements, branches have been exercised by a test suite.
+critical success factor:    An element necessary for an organization or project to achieve its mission. Critical success factors are the critical factors or #activities required for ensuring the success.
+critical testing processes:    A content-based model for test process improvement built around twelve critical processes. These include highly visible processes, #by which peers and management judge competence and mission-critical processes in which performance affects the company's profits and #reputation.
+custom tool:    A software tool developed specifically for a set of users or customers.
+daily build:    A development activity whereby a complete system is compiled and linked every day (often overnight), so that a consistent system is #available at any time including all latest changes.
+dashboard:    A representation of dynamic measurements of operational performance for some organization or activity, using metrics represented via #metaphores such as visual ‘dials’,‘counters’, and other devices resembling those on the dashboard of an automobile, so that the effects #of events or activities can be easily understood and related to operational goals.
+data definition:    An executable statement where a variable is assigned a value.
+data-driven testing:    A scripting technique that stores test input and expected results in a table or spreadsheet, so that a single control script can #execute all of the tests in the table. Data-driven testing is often used to support the application of test execution tools such as #capture/playback tools.
+data flow:    An abstract representation of the sequence and possible changes of the state of data objects, where the state of an object is any of #creation, usage, or destruction.
+data flow analysis:    A form of static analysis based on the definition and usage of variables.
+data flow coverage: The percentage of definition-use pairs that have been exercised by a test suite.
+data flow testing:  A white box test design technique in which test cases are designed to execute definition-use pairs of variables.
+data quality:    An attribute of data that indicates correctness with respect to some pre-defined criteria, e.g., business expectations, requirements on #data integrity, data consistency.
+database integrity testing:    Testing the methods and processes used to access and manage the data(base), to ensure access methods, processes and data rules function #as expected and that during access to the database, data is not corrupted or unexpectedly deleted, updated or created.
+debugging:    The process of finding, analyzing and removing the causes of failures in software.
+debugging tool:    A tool used by programmers to reproduce failures, investigate the state of programs and find the corresponding defect. Debuggers enable #programmers to execute programs step by step, to halt a program at any program statement and to set and examine program variables.
+decision:   A program point at which the control flow has two or more alternative routes. A node with two or more links to separate branches.
+decision condition coverage:    The percentage of all condition outcomes and decision outcomes that have been exercised by a test suite. 100% decision condition #coverage implies both 100% condition coverage and 100% decision coverage.
+decision condition testing:    A white box test design technique in which test cases are designed to execute condition outcomes and decision outcomes.
+decision coverage:    The percentage of decision outcomes that have been exercised by a test suite. 100% decision coverage implies both 100% branch coverage #and 100% statement coverage.
+decision outcome:   The result of a decision (which therefore determines the branches to be taken).
+decision table:    A table showing combinations of inputs and/or stimuli (causes) with their associated outputs and/or actions (effects), which can be #used to design test cases.
+decision table testing:    A black box test design technique in which test cases are designed to execute the combinations of inputs and/or stimuli (causes) shown #in a decision table.
+decision testing:   A white box test design technique in which test cases are designed to execute decision outcomes.
+defect:    A flaw in a component or system that can cause the component or system to fail to perform its required function, e.g. an incorrect #statement or data definition. If this definition encountered during execution may cause component or system failure.
+defect-based test design technique:    A procedure to derive and/or select test cases targeted at one or more defect categories, with tests being developed from what is #known about the specific defect category.
+defect density:    The number of defects identified in a component or system divided by the size of the component or system (expressed in standard #measurement terms, e.g. lines- ofcode, number of classes or function points).
+defect detection percentage:    The number of defects found by a test phase, divided by the number found by that test phase and any other means afterwards.
+defect management:    The process of recognizing, investigating, taking action and disposing of defects. It involves recording defects, classifying them and #identifying the impact.
+defect management committee:    A cross-functional team of stakeholders who manage reported defects from initial detection to ultimate resolution (defect removal, #defect deferral, or report cancellation). In some cases, the same team as the configuration control board.
+defect management tool:    A tool that facilitates the recording and status tracking of defects and changes. They often have workflow-oriented facilities to track #and control the allocation, correction and re- testing of defects and provide reporting facilities.
+defect masking: An occurrence in which one defect prevents the detection of another.
+defect report:    A document reporting on any flaw in a component or system that can cause the component or system to fail to perform its required function.
+defect taxonomy:    A system of (hierarchical) categories designed to be a useful aid for reproducibly classifying defects.
+deliverable:    Any (work) product that must be delivered to someone other than the (work) product’s author.
+deming cycle:   An iterative four-step problem-solving process, (plan-do-check-act), typically used in process improvement.
+design-based testing:    An approach to testing in which test cases are designed based on the architecture and/or detailed design of a component or system #(e.g. tests of interfaces between components or systems).
+desk checking:  Testing of software or a specification by manual simulation of its execution.
+development testing:    Formal or informal testing conducted during the implementation of a component or system, usually in the development environment by #developers.
+documentation testing:  Testing the quality of the documentation, e.g. user guide or installation guide.
+domain: The set from which valid input and/or output values can be selected.
+domain analysis:    A black box test design technique that is used to identify efficient and effective test cases when multiple variables can or should be #tested together. It builds on and generalizes equivalence partitioning and boundary values analysis.
+driver:    A software component or test tool that replaces a component that takes care of the control and/or the calling of a component or system.
+dynamic analysis:   The process of evaluating behavior, e.g. memory performance, CPU usage, of a system or component during execution.
+dynamic analysis tool:    A tool that provides run-time information on the state of the software code. These tools are most commonly used to identify unassigned #pointers, check pointer arithmetic and to monitor the allocation, use and de-allocation of memory and to flag memory leaks.
+dynamic comparison:    Comparison of actual and expected results, performed while the software is being executed, for example by a test execution tool.
+dynamic testing:    Testing that involves the execution of the software of a component or system.
+effectiveness:  The capability of producing an intended result.
+efficiency:    (1) The capability of the software product to provide appropriate performance, relative to the amount of resources used under stated #conditions.(2) The capability of a process to produce the intended outcome, relative to the amount of resources used.
+efficiency testing: The process of testing to determine the efficiency of a software product.
+elementary comparison testing:    A black box test design technique in which test cases are designed to execute combinations of inputs using the concept of modified #condition decision coverage.
+embedded iterative development model:    A development lifecycle sub-model that applies an iterative approach to detailed design, coding and testing within an overall sequential #model. In this case, the high level design documents are prepared and approved for the entire project but the actual detailed design, code #development and testing are conducted in iterations.
+emotional intelligence:    The ability, capacity, and skill to identify, assess, and manage the emotions of one's self, of others, and of groups.
+emulator:    A device, computer program, or system that accepts the same inputs and produces the same outputs as a given system.
+entry criteria:    The set of generic and specific conditions for permitting a process to go forward with a defined task, e.g. test phase. The purpose of #entry criteria is to prevent a task from starting which would entail more (wasted) effort compared to the effort needed to remove the #failed entry criteria.
+entry point:    An executable statement or process step which defines a point at which a given process is intended to begin.
+equivalence partition:    A portion of an input or output domain for which the behavior of a component or system is assumed to be the same, based on the #specification.
+equivalence partition coverage: The percentage of equivalence partitions that have been exercised by a test suite.
+equivalence partitioning:    A black box test design technique in which test cases are designed to execute representatives from equivalence partitions. In principle #test cases are designed to cover each partition at least once.
+error:  A human action that produces an incorrect result.
+error guessing:    A test design technique where the experience of the tester is used to anticipate what defects might be present in the component or #system under test as a result of errors made, and to design tests specifically to expose them.
+error tolerance:    The ability of a system or component to continue normal operation despite the presence of erroneous inputs.
+exception handling:    Behavior of a component or system in response to erroneous input, from either a human user or from another component or system, or to #an internal failure.
+executable statement:    A statement which, when compiled, is translated into object code, and which will be executed procedurally when the program is running #and may perform an action on data.
+exercised:    A program element is said to be exercised by a test case when the input value causes the execution of that element, such as a statement, #decision, or other structural element.
+exhaustive testing:    A test approach in which the test suite comprises all combinations of input values and preconditions.
+exit criteria:    The set of generic and specific conditions, agreed upon with the stakeholders for permitting a process to be officially completed. The #purpose of exit criteria is to prevent a task from being considered completed when there are still outstanding parts of the task which #have not been finished. Exit criteria are used to report against and to plan when to stop testing.
+exit point: An executable statement or process step which defines a point at which a given process is intended to cease.
+expected result:    The behavior predicted by the specification, or another source, of the component or system under specified conditions.
+experience-based test design technique:    Procedure to derive and/or select test cases based on the tester’s experience, knowledge and intuition.
+experience-based testing:   Testing based on the tester’s experience, knowledge and intuition.
+exploratory testing:    An informal test design technique where the tester actively controls the design of the tests as those tests are performed and uses #information gained while testing to design new and better tests.
+extreme programming:    A software engineering methodology used within agile software development whereby core practices are programming in pairs, doing #extensive code review, unit testing of all code, and simplicity and clarity in code.
+factory acceptance testing:    Acceptance testing conducted at the site at which the product is developed and performed by employees of the supplier organization, to #determine whether or not a component or system satisfies the requirements, normally including hardware as well as software.
+fail:    A test is deemed to fail if its actual result does not match its expected result.
+failover testing:    Testing by simulating failure modes or actually causing failures in a controlled environment. Following a failure, the failover #mechanism is tested to ensure that data is not lost or corrupted and that any agreed service levels are maintained (e.g., function #availability or response times).
+failure:    Deviation of the component or system from its expected delivery, service or result.
+failure mode:    The physical or functional manifestation of a failure. For example, a system in failure mode may be characterized by slow operation, #incorrect outputs, or complete termination of execution.
+failure mode and effect analysis:    A systematic approach to risk identification and analysis of identifying possible modes of failure and attempting to prevent their #occurrence.
+failure rate:    The ratio of the number of failures of a given category to a given unit of measure, e.g. failures per unit of time, failures per number #of computer runs.
+false-fail result:  A test result in which a defect is reported although no such defect actually exists in the test object.
+false-pass result:  A test result which fails to identify the presence of a defect that is actually present in the test object.
+fault injection:    The process of intentionally adding defects to a system for the purpose of finding out whether the system can detect, and possibly #recover from, a defect. Fault injection intended to mimic failures that might occur in the field.
+fault seeding:    The process of intentionally adding defects to those already in the component or system for the purpose of monitoring the rate of #detection and removal, and estimating the number of remaining defects. Fault seeding is typically part of development (prerelease) testing #and can be performed at any test level (component, integration, or system).
+fault seeding tool:    A tool for seeding (i.e. intentionally inserting) faults in a component or system.
+fault tolerance:    The capability of the software product to maintain a specified level of performance in cases of software faults (defects) or of #infringement of its specified interface.
+feasible path:  A path for which a set of input values and preconditions exists which causes it to be executed.
+feature:    An attribute of a component or system specified or implied by requirements documentation (for example reliability, usability or #design constraints).
+feature-driven development:    An iterative and incremental software development process driven from a client- valued functionality (feature) perspective. #Feature-driven development is mostly used in agile software development.
+finite state machine:    A computational model consisting of a finite number of states and transitions between those states, possibly with accompanying actions.
+formal review:  A review characterized by documented procedures and requirements, e.g. inspection.
+frozen test basis:  A test basis document that can only be amended by a formal change control process.
+functional integration:    An integration approach that combines the components or systems for the purpose of getting a basic functionality working early.
+functional requirement: A requirement that specifies a function that a component or system must perform.
+functional test design technique:    Procedure to derive and/or select test cases based on an analysis of the specification of the functionality of a component or system #without reference to its internal structure.
+functional testing:    Testing based on an analysis of the specification of the functionality of a component or system.
+functionality:    The capability of the software product to provide functions which meet stated and implied needs when the software is used under #specified conditions.
+functionality testing:  The process of testing to determine the functionality of a software product.
+goal question metric:    An approach to software measurement using a three-level model; conceptual level (goal), operational level (question) and quantitative #level (metric).
+hardware-software integration testing:    Testing performed to expose defects in the interfaces and interaction between hardware and software components.
+hazard analysis:    A technique used to characterize the elements of risk. The result of a hazard analysis will drive the methods used for development #and testing of a system.
+heuristic evaluation:    A usability review technique that targets usability problems in the user interface or user interface design. With this technique, the #reviewers examine the interface and judge its compliance with recognized usability principles (the "heuristics").
+high level test case:    A test case without concrete (implementation level) values for input data and expected results. Logical operators are used; instances #of the actual values are not yet defined and/or available.
+horizontal traceability:    The tracing of requirements for a test level through the layers of test documentation (e.g. test plan, test design specification, test #case specification and test procedure specification or test script).
+hyperlink:  A pointer within a web page that leads to other web pages.
+hyperlink test tool:    A tool used to check that no broken hyperlinks are present on a web site.
+impact analysis:    The assessment of change to the layers of development documentation, test documentation and components, in order to implement a given #change to specified requirements.
+incident:   Any event occurring that requires investigation.
+incident logging:    The process of recognizing, investigating, taking action and disposing of incidents. It involves logging incidents, classifying them #and identifying the impact.
+incident management tool:   A tool that facilitates the recording and status tracking of incidents. They often have workflow- oriented facilities to track and #control the allocation, correction and re- testing of incidents and provide reporting facilities.
+incident report:    A document reporting on any event that occurred, e.g. during the testing, which requires investigation.
+incremental development model:    A development lifecycle where a project is broken into a series of increments, each of which delivers a portion of the functionality #in the overall project requirements. The requirements are prioritized and delivered in priority order in the appropriate increment. In #some (but not all) versions of this lifecycle model, each subproject follows a ‘mini V- model’ with its own design, coding and testing phases.
+incremental testing:    Testing where components or systems are integrated and tested one or some at a time, until all the components or systems are integrated #and tested.
+independence of testing:    Separation of responsibilities, which encourages the accomplishment of objective testing.
+indicator:  A measure that can be used to estimate or predict another measure.
+infeasible path:    A path that cannot be exercised by any set of possible input values.
+informal review:    A review not based on a formal (documented) procedure.
+input:  A variable (whether stored within a component or outside) that is read by a component.
+input domain:   The set from which valid input values can be selected.
+insourced testing:  Testing performed by people who are co- located with the project team but are not fellow employees.
+inspection:    A type of peer review that relies on visual examination of documents to detect defects, e.g. violations of development standards and #non- conformance to higher level documentation. The most formal review technique and therefore always based on a documented procedure.
+installability: The capability of the software product to be installed in a specified environment.
+installability testing: The process of testing the installability of a software product.
+installation guide:    Supplied instructions on any suitable media, which guides the installer through the installation process. This may be a manual guide, #step-by-step procedure, installation wizard, or any other similar process description.
+installation wizard:    Supplied software on any suitable media, which leads the installer through the installation process. It normally runs the installation #process, provides feedback on installation results, and prompts for options.
+instrumentation:   The insertion of additional code into the program in order to collect information about program behavior during execution, e.g. for #measuring code coverage.
+instrumenter:   A software tool used to carry out instrumentation.
+intake test:    A special instance of a smoke test to decide if the component or system is ready for detailed and further testing. An intake test is #typically carried out at the start of the test execution phase.
+integration:    The process of combining components or systems into larger assemblies.
+integration testing:    Testing performed to expose defects in the interfaces and in the interactions between integrated components or systems.
+interface testing:  An integration test type that is concerned with testing the interfaces between components or systems.
+interoperability:   The capability of the software product to interact with one or more specified components or systems.
+interoperability testing:   The process of testing to determine the interoperability of a software product. See also functionality testing.
+invalid testing:    Testing using input values that should be rejected by the component or system.
+isolation testing:    Testing of individual components in isolation from surrounding components, with surrounding components being simulated by stubs and #drivers, if needed.
+iterative development model:    A development lifecycle where a project is broken into a usually large number of iterations. An iteration is a complete development #loop resulting in a release (internal or external) of an executable product, a subset of the final product under development, which grows #from iteration to iteration to become the final product.
+keyword-driven testing:    A scripting technique that uses data files to contain not only test data and expected results, but also keywords related to the #application being tested. The keywords are interpreted by special supporting scripts that are called by the control script for the test.
+learnability:   The capability of the software product to enable the user to learn its application.
+level test plan:    A test plan that typically addresses one test level.
+lifecycle model:    A partitioning of the life of a product or project into phases.
+load profile:    A specification of the activity which a component or system being tested may experience in production. A load profile consists of a #designated number of virtual users who process a defined set of transactions in a specified time period and according to a predefined #operational profile.
+load testing:    A type of performance testing conducted to evaluate the behavior of a component or system with increasing load, e.g. numbers of parallel #users and/or numbers of transactions, to determine what load can be handled by the component or system.
+load testing tool:    A tool to support load testing whereby it can simulate increasing load, e.g., numbers of concurrent users and/or transactions within a #specified time- period.
+low level test case:    A test case with concrete (implementation level) values for input data and expected results. Logical operators from high level test #cases are replaced by actual values that correspond to the objectives of the logical operators.
+man in the middle attack:    The interception, mimicking and/or altering and subsequent relaying of communications (e.g., credit card transactions) by a third party #such that a user remains unaware of that third party’s presence.
+maintainability:    The ease with which a software product can be modified to correct defects, modified to meet new requirements, modified to make future #maintenance easier, or adapted to a changed environment.
+maintainability testing:    The process of testing to determine the maintainability of a software product.
+maintenance:    Modification of a software product after delivery to correct defects, to improve performance or other attributes, or to adapt the #product to a modified environment.
+maintenance testing:    Testing the changes to an operational system or the impact of a changed environment to an operational system.
+management review:    A systematic evaluation of software acquisition, supply, development, operation, or maintenance process, performed by or on behalf of #management that monitors progress, determines the status of plans and schedules, confirms requirements and their system allocation, or #evaluates the effectiveness of management approaches to achieve fitness for purpose.
+manufacturing-based quality:    A view of quality, whereby quality is measured by the degree to which a product or service conforms to its intended design and #requirements. Quality arises from the process(es) used.
+master test plan:   A test plan that typically addresses multiple test levels.
+maturity:    (1) The capability of an organization with respect to the effectiveness and efficiency of its processes and work practices. #(2) The capability of the software product to avoid failure as a result of defects in the software.
+maturity level:    Degree of process improvement across a predefined set of process areas in which all goals in the set are attained.
+maturity model:    A structured collection of elements that describe certain aspects of maturity in an organization, and aid in the definition and #understanding of an organization's processes. A maturity model often provides a common language, shared vision and framework for #prioritizing improvement actions.
+mean time to repair:    The arithmetic mean (average) time a system will take to recover from any failure. This typically includes testing to insure that the #defect has been resolved.
+measure:    The number or category assigned to an attribute of an entity by making a measurement.
+measurement:    The process of assigning a number or category to an entity to describe an attribute of that entity.
+measurement scale:  A scale that constrains the type of data analysis that can be performed on it.
+memory leak:    A memory access failure due to a defect in a program's dynamic store allocation logic that causes it to fail to release memory after #it has finished using it, eventually causing the program and/or other concurrent processes to fail due to lack of memory.
+methodical testing: Testing based on a standard set of tests, e.g., a checklist, a quality standard, or a set of generalized test cases.
+metric: A measurement scale and the method used for measurement.
+milestone:  A point in time in a project at which defined (intermediate) deliverables and results should be ready.
+mind map:    A diagram used to represent words, ideas, tasks, or other items linked to and arranged around a central keyword or idea. Mind maps are #used to generate, visualize, structure, and classify ideas, and as an aid in study, organization, problem solving, decision making, and #writing.
+model-based testing:    Testing based on a model of the component or system under test, e.g.,reliability growth models, usage models such as operational #profiles or behavioural models such as decision table or state transition diagram.
+modeling tool:  A tool that supports the creation, amendment and verification of models of the software or system.
+moderator:  The leader and main person responsible for an inspection or other review Process.
+modified condition decision coverage:    The percentage of all single condition outcomes that independently affect a decision outcome that have been exercised by a test case #suite. 100% modified condition decision coverage implies 100% decision condition coverage.
+modified condition decision testing:    A white box test design technique in which test cases are designed to execute single condition outcomes that independently affect a #decision outcome.
+monitor:    A software tool or hardware device that runs concurrently with the component or system under test and supervises, records and/or #analyses the behavior of the component or system.
+monkey testing:    Testing by means of a random selection from a large range of inputs and by randomly pushing buttons, ignorant of how the product is #being used.
+multiple condition coverage:    The percentage of combinations of all single condition outcomes within one statement that have been exercised by a test suite.
+multiple condition testing:    A white box test design technique in which test cases are designed to execute combinations of single condition outcomes (within one #statement).
+mutation analysis:    A method to determine test suite thoroughness by measuring the extent to which a test suite can discriminate the program from slight #variants (mutants) of the program.
+negative testing:    Tests aimed at showing that a component or system does not work Negative testing is related to the testers’ attitude rather than a #specific test approach or test design technique, e.g. testing with invalid input values or exceptions.
+neighborhood integration testing:    A form of integration testing where all of the nodes that connect to a given node are the basis for the integration testing.
+non-conformity:   Non fulfillment of a specified requirement.
+non-functional requirement:    A requirement that does not relate to functionality, but to attributes such as reliability, efficiency, usability, maintainability and #portability.
+non-functional test design technique:   Procedure to derive and/or select test cases for nonfunctional testing based on an analysis of the specification of a component or #system without reference to its internal structure.
+non-functional testing:    Testing the attributes of a component or system that do not relate to functionality, e.g. reliability, efficiency, usability, #maintainability and portability.
+off-the-shelf software:    A software product that is developed for the general market, i.e. for a large number of customers, and that is delivered to many #customers in identical format.
+open source software:    A software tool that is available to all potential users in source code form, usually via the internet; its users are permitted, #usually under licence, to study, change, improve and, at times, to distribute the software.
+operability:    The capability of the software product to enable the user to operate and control it.
+operational acceptance testing:    Operational testing in the acceptance test phase, typically performed in a (simulated) operational environment by operations and/or #systems administration staff focusing on operational aspects, e.g. recoverability, resource-behavior, installability and technical compliance.
+operational environment:    Hardware and software products installed at users’ or customers’ sites where the component or system under test will be used. #The software may include operating systems, database management systems, and other applications.
+operational profile:    The representation of a distinct set of tasks performed by the component or system, possibly based on user behavior when interacting #with the component or system, and their probabilities of occurrence. A task is logical rather that physical and can be executed over #several machines or be executed in non-contiguous time segments.
+operational profile testing:    Statistical testing using a model of system operations (short duration tasks) and their probability of typical use.
+operational profiling:  The process of developing and implementing an operational profile.
+operational testing:    Testing conducted to evaluate a component or system in its operational environment.
+orthogonal array:    A two-dimensional array constructed with special mathematical properties, such that choosing any two columns in the array provides #every pair combination of each number in the array.
+orthogonal array testing:    A systematic way of testing all-pair combinations of variables using orthogonal arrays. It significantly reduces the number of all #combinations of variables to test all pair combinations.
+output: A variable (whether stored within a component or outside) that is written by a component.
+output domain:  The set from which valid output values can be selected.
+outsourced testing: Testing performed by people who are not co- located with the project team and are not fellow employees.
+pair programming:    A software development approach whereby lines of code (production and/or test) of a component are written by two programmers sitting #at a single computer. This implicitly means ongoing real-time code reviews are performed.
+pair testing:    Two persons, e.g. two testers, a developer and a tester, or an end-user and a tester, working together to find defects. Typically, #they share one computer and trade control of it while testing.
+pairwise integration testing:    A form of integration testing that targets pairs of components that work together, as shown in a call graph.
+pairwise testing:    A black box test design technique in which test cases are designed to execute all possible discrete combinations of each pair of #input parameters.
+pareto analysis:    A statistical technique in decision making that is used for selection of a limited number of factors that produce significant #overall effect. In terms of quality improvement, a large majority of problems (80%) are produced by a few key causes (20%).
+pass:   A test is deemed to pass if its actual result matches its expected result.
+pass-fail criteria: Decision rules used to determine whether a test item (function) or feature has passed or failed a test.
+path:   A sequence of events, e.g. executable statements, of a component or system from an entry point to an exit point.
+path sensitizing:   Choosing a set of input values to force the execution of a given path.
+path testing:   A white box test design technique in which test cases are designed to execute paths.
+peer review:    A review of a software work product by colleagues of the producer of the product for the purpose of identifying defects and #improvements. Examples are inspection, technical review and walkthrough.
+performance:    The degree to which a system or component accomplishes its designated functions within given constraints regarding processing time and #throughput rate.
+performance indicator:    A high level metric of effectiveness and/or efficiency used to guide and control progressive development, e.g. lead- time slip for #software development.
+performance profiling:    The task of analyzing, e.g., identifying performance bottlenecks based on generated metrics, and tuning the performance of a software #component or system using tools.
+performance testing:    The process of testing to determine the performance of a software product.
+performance testing tool:    A tool to support performance testing that usually has two main facilities: load generation and test transaction measurement. Load #generation can simulate either multiple users or high volumes of input data. During execution, response time measurements are taken #from selected transactions and these are logged. Performance testing tools normally provide reports based on test logs and graphs of #load against response times.
+phase containment:  The percentage of defects that are removed in the same phase of the software lifecycle in which they were introduced.
+phase test plan:    A test plan that typically addresses one test phase.
+planning poker:    A consensus-based estimation technique, mostly used to estimate effort or relative size of user stories in agile software development. #It is a variation of the Wide Band Delphi method using a deck of cards with values representing the units in which the team estimates.
+pointer:    A data item that specifies the location of another data item; for example, a data item that specifies the address of the next employee #record to be processed.
+portability:    The ease with which the software product can be transferred from one hardware or software environment to another.
+portability testing:    The process of testing to determine the portability of a software product.
+postcondition:  Environmental and state conditions that must be fulfilled after the execution of a test or test procedure.
+post-execution comparison:  Comparison of actual and expected results, performed after the software has finished running.
+precondition:    Environmental and state conditions that must be fulfilled before the component or system can be executed with a particular test or #test procedure.
+predicate:  A statement that can evaluate to true or false and may be used to determine the control flow of subsequent decision logic.
+priority:   The level of (business) importance assigned to an item, e.g. Defect.
+probe effect:    The effect on the component or system by the measurement instrument when the component or system is being measured, e.g. by a #performance testing tool or monitor. For example performance may be slightly worse when performance testing tools are being used.
+procedure testing:    Testing aimed at ensuring that the component or system can operate in conjunction with new or existing users’ business procedures or #operational procedures.
+process:    A set of interrelated activities, which transform inputs into outputs.
+process assessment: A disciplined evaluation of an organization’s software processes against a reference model.
+process-compliant testing:  Testing that follows a set of defined processes, e.g., defined by an external party such as a standards committee.
+process cycle test: A black box test design technique in which test cases are designed to execute business procedures and processes.
+process improvement:    A program of activities designed to improve the performance and maturity of the organization’s processes, and the result of such a program.
+process model:  A framework wherein processes of the same nature are classified into a overall model, e.g. a test improvement model.
+product-based quality:    A view of quality, wherein quality is based on a well-defined set of quality attributes. These attributes must be measured in an #objective and quantitative way. Differences in the quality of products of the same type can be traced back to the way the specific quality #attributes have been implemented.
+product risk:   A risk directly related to the test object.
+project:    A project is a unique set of coordinated and controlled activities with start and finish dates undertaken to achieve an objective #conforming to specific requirements, including the constraints of time, cost and resources.
+project retrospective:    A structured way to capture lessons learned and to create specific action plans for improving on the next project or next project phase.
+project risk:    A risk related to management and control of the (test) project, e.g. lack of staffing, strict deadlines, changing requirements, etc.
+pseudo-random:  A series which appears to be random but is in fact generated according to some prearranged sequence.
+qualification:    The process of demonstrating the ability to fulfill specified requirements. Note the term ‘qualified’ is used to designate the #corresponding status.
+quality:    The degree to which a component, system or process meets specified requirements and/or user/customer needs and expectations.
+quality assurance:  Part of quality management focused on providing confidence that quality requirements will be fulfilled.
+quality attribute:  A feature or characteristic that affects an item’s quality.
+quality control:    The operational techniques and activities, part of quality management, that are focused on fulfilling quality requirements.
+quality management:    Coordinated activities to direct and control an organization with regard to quality. Direction and control with regard to quality #generally includes the establishment of the quality policy and quality objectives, quality planning, quality control, quality assurance #and quality improvement.
+quality risk:   A risk related to a quality attribute.
+random testing:    A black box test design technique where test cases are selected, possibly using a pseudo- random generation algorithm, to match an #operational profile. This technique can be used for testing non- functional attributes such as reliability and performance.
+reactive testing:    Testing that dynamically responds to the actual system under test and test results being obtained. Typically reactive testing has a #reduced planning cycle and the design and implementation test phases are not carried out until the test object is received.
+recoverability:    The capability of the software product to re- establish a specified level of performance and recover the data directly affected in #case of failure.
+recoverability testing: The process of testing to determine the recoverability of a software product.
+regression-averse testing:    Testing using various techniques to manage the risk of regression,e.g., by designing re-usable testware and by extensive automation of #testing at one or more test levels.
+regression testing:    Testing of a previously tested program following modification to ensure that defects have not been introduced or uncovered in unchanged #areas of the software, as a result of the changes made. It is performed when the software or its environment is changed.
+release note:    A document identifying test items, their configuration, current status and other delivery information delivered by development to #testing, and possibly other stakeholders, at the start of a test execution phase.
+reliability:    The ability of the software product to perform its required functions under stated conditions for a specified period of time, or for a #specified number of operations.
+reliability growth model:    A model that shows the growth in reliability over time during continuous testing of a component or system as a result of the removal #of defects that result in reliability failures.
+reliability testing:    The process of testing to determine the reliability of a software product.
+replaceability:    The capability of the software product to be used in place of another specified software product for the same purpose in the same #environment.
+requirement:    A condition or capability needed by a user to solve a problem or achieve an objective that must be met or possessed by a system or #system component to satisfy a contract, standard, specification, or other formally imposed document.
+requirements-based testing:    An approach to testing in which test cases are designed based on test objectives and test conditions derived from requirements, e.g. #tests that exercise specific functions or probe non-functional attributes such as reliability or usability.
+requirements management tool:    A tool that supports the recording of requirements, requirements attributes (e.g. priority, knowledge responsible) and annotation, and #facilitates traceability through layers of requirements and requirements change management. Some requirements management tools also #provide facilities for static analysis, such as consistency checking and violations to pre-defined requirements rules.
+requirements phase:    The period of time in the software lifecycle during which the requirements for a software product are defined and documented.
+resource utilization:    The capability of the software product to use appropriate amounts and types of resources, for example the amounts of main and secondary #memory used by the program and the sizes of required temporary or overflow files, when the software performs its function under stated #conditions.
+resource utilization testing:   The process of testing to determine the resource- utilization of a software product.
+result:    The consequence/outcome of the execution of a test. It includes outputs to screens, changes to data, reports, and communication #messages sent out.
+resumption criteria:    The criteria used to restart all or a portion of the testing activities that were suspended previously.
+resumption requirements:    The defined set of testing activities that must be repeated when testing is re-started after a suspension.
+re-testing: Testing that runs test cases that failed the last time they were run, in order to verify the success of corrective actions.
+retrospective meeting:    A meeting at the end of a project during which the project team members evaluate the project and learn lessons that can be applied to #the next project.
+review:    An evaluation of a product or project status to ascertain discrepancies from planned results and to recommend improvements. Examples #include management review, informal review, technical review, inspection, and walkthrough.
+review plan:    A document describing the approach, resources and schedule of intended review activities. It identifies, amongst others; documents and #code to be reviewed, review types to be used, participants, as well as entry and exit criteria to be applied in case of formal reviews, and #the rationale for their choice. It is a record of the review planning process.
+review tool:    A tool that provides support to the review process. Typical features include review planning and tracking support, communication #support, collaborative reviews and a repository for collecting and reporting of metrics.
+risk:   A factor that could result in future negative consequences; usually expressed as impact and likelihood.
+risk analysis:  The process of assessing identified risks to estimate their impact and probability of occurrence.
+risk assessment:    The process of assessing a given project or product risk to determine its level of risk, typically by assigning likelihood and impact #ratings and then aggregating those ratings into a single risk priority rating.
+risk-based testing:    An approach to testing to reduce the level of product risks and inform stakeholders of their status, starting in the initial stages of #a project. It involves the identification of product risks and the use of risk levels to guide the test process.
+risk control:    The process through which decisions are reached and protective measures are implemented for reducing risks to, or maintaining risks #within, specified levels.
+risk identification:    The process of identifying risks using techniques such as brainstorming, checklists and failure history.
+risk impact:    The damage that will be caused if the risk become an actual outcome or event.
+risk level: The importance of a risk as defined by its characteristics impact and likelihood.
+risk likelihood:    The estimated probability that a risk will become an actual outcome or event.
+risk management:    Systematic application of procedures and practices to the tasks of identifying, analyzing, prioritizing, and controlling risk.
+risk type:    A set of risks grouped by one or more common factors such as a quality attribute, cause, location, or potential effect of risk; #A specific set of product risk types is related to the type of testing that can mitigate (control) that risk type. For example the risk #of user interactions being misunderstood can be mitigated by usability testing.
+robustness:    The degree to which a component or system can function correctly in the presence of invalid inputs or stressful environmental conditions.
+robustness testing: Testing to determine the robustness of the software product.
+root cause: A source of a defect such that if it is removed, the occurrence of the defect type is decreased or removed.
+root cause analysis:    An analysis technique aimed at identifying the root causes of defects. By directing corrective measures at root causes, it is hoped #that the likelihood of defect recurrence will be minimized.
+safety:    The capability of the software product to achieve acceptable levels of risk of harm to people, business, software, property or the #environment in a specified context of use.
+safety critical system:    A system whose failure or malfunction may result in death or serious injury to people, or loss or severe damage to equipment, or #environmental harm.
+safety testing: Testing to determine the safety of a software product.
+scalability:    The capability of the software product to be upgraded to accommodate increased loads.
+scalability testing:    Testing to determine the scalability of the software product.
+scorecard:    A representation of summarized performance measurements representing progress towards the implementation of long-term goals. A #scorecard provides static measurements of performance over or at the end of a defined interval.
+scribe:    The person who records each defect mentioned and any suggestions for process improvement during a review meeting, on a logging form.
+scripted testing:   Test execution carried out by following a previously documented sequence of tests.
+scripting language:    A programming language in which executable test scripts are written, used by a test execution tool (e.g. a capture/playback tool).
+security:    Attributes of software products that bear on its ability to prevent unauthorized access, whether accidental or deliberate, to programs #and data.
+security testing:   Testing to determine the security of the software product.
+security testing tool:  A tool that provides support for testing security characteristics and vulnerabilities.
+session-based test management:    An approach to testing in which test activities are planned as uninterrupted sessions of test design and execution, often used in #conjunction with exploratory testing.
+severity:   The degree of impact that a defect has on the development or operation of a component or system.
+short-circuiting:    A programming language/interpreter technique for evaluating compound conditions in which a condition on one side of a logical operator #may not be evaluated if the condition on the other side is sufficient to determine the final outcome.
+simulation: The representation of selected behavioral characteristics of one physical or abstract system by another system.
+simulator:    A device, computer program or system used during testing, which behaves or operates like a given system when provided with a set of #controlled inputs.
+site acceptance testing:    Acceptance testing by users/customers at their site, to determine whether or not a component or system satisfies the user/customer #needs and fits within the business processes, normally including hardware as well as software.
+smoke test:    A subset of all defined/planned test cases that cover the main functionality of a component or system, to ascertaining that the most #crucial functions of a program work, but not bothering with finer details. A daily build and smoke test is among industry best practices.
+software:   Computer programs, procedures, and possibly associated documentation and data pertaining to the operation of a computer system.
+software integrity level:    The degree to which software complies or must comply with a set of stakeholder- selected software and/or software-based system #characteristics (e.g., software complexity, risk assessment, safety level, security level, desired performance, reliability, or cost) #which are defined to reflect the importance of the software to its stakeholders.
+software lifecycle:    The period of time that begins when a software product is conceived and ends when the software is no longer available for use. The #software lifecycle typically includes a concept phase, requirements phase, design phase, implementation phase, test phase, installation #and checkout phase, operation and maintenance phase, and sometimes, retirement phase. Note these phases may overlap or be performed #iteratively.
+software quality:    The totality of functionality and features of a software product that bear on its ability to satisfy stated or implied needs.
+specification:    A document that specifies, ideally in a complete, precise and verifiable manner, the requirements, design, behavior, or other #characteristics of a component or system, and, often, the procedures for determining whether these provisions have been satisfied.
+specified input:    An input for which the specification predicts a result.
+stability:  The capability of the software product to avoid unexpected effects from modifications in the software.
+staged representation:    A model structure wherein attaining the goals of a set of process areas establishes a maturity level; each level builds a foundation #for subsequent levels.
+standard:    Formal, possibly mandatory, set of requirements developed and used to prescribe consistent approaches to the way of working or to #provide guidelines.
+standard-compliant testing:    Testing that complies to a set of requirements defined by a standard, e.g., an industry testing standard or a standard for testing #safety- critical systems.
+state diagram:    A diagram that depicts the states that a component or system can assume, and shows the events or circumstances that cause and/or result #from a change from one state to another.
+state table:    A grid showing the resulting transitions for each state combined with each possible event, showing both valid and invalid transitions.
+state transition:   A transition between two states of a component or system.
+state transition testing:   A black box test design technique in which test cases are designed to execute valid and invalid state transitions.
+statement:  An entity in a programming language, which is typically the smallest indivisible unit of execution.
+statement coverage: The percentage of executable statements that have been exercised by a test suite.
+statement testing:  A white box test design technique in which test cases are designed to execute statements.
+static analysis:    Analysis of software development artifacts,e.g. requirements or code, carried out without execution of these software development #artifacts. It is usually carried out by means of a supporting tool.
+static code analysis:   Analysis of source code carried out without execution of that software.
+static code analyzer:    A tool that carries out static code analysis. The tool checks source code, for certain properties such as conformance to coding #standards, quality metrics or data flow anomalies.
+static testing:    Testing of a software development artifact, e.g., requirements, design or code, without execution of these artifacts, e.g., reviews or #static analysis.
+statistical testing:    A test design technique in which a model of the statistical distribution of the input is used to construct representative test cases.
+status accounting:    An element of configuration management, consisting of the recording and reporting of information needed to manage a configuration #effectively. This information includes a listing of the approved configuration identification, the status of proposed changes to the #configuration, and the implementation status of the approved changes.
+stress testing:    A type of performance testing conducted to evaluate a system or component at or beyond the limits of its anticipated or specified #workloads, or with reduced availability of resources such as access to memory or servers.
+structural coverage:    Coverage measures based on the internal structure of a component or system.
+stub:    A skeletal or special-purpose implementation of a software component, used to develop or test a component that calls or is otherwise #dependent on it. It replaces a called component.
+subpath:    The capability of the software product to provide an appropriate set of functions for specified tasks and user objectives.
+suitability testing:    The process of testing to determine the suitability of a software product.
+suspension criteria:    The criteria used to (temporarily) stop all or a portion of the testing activities on the test items.
+syntax testing:    A black box test design technique in which test cases are designed based upon the definition of the input domain and/or output domain.
+system: A collection of components organized to accomplish a specific function or set of functions.
+system integration testing:    Testing the integration of systems and packages; testing interfaces to external organizations (e.g. Electronic Data Interchange, Internet)
+system of systems:    Multiple heterogeneous, distributed systems that are embedded in networks at multiple levels and in multiple interconnected domains, #addressing large- scale inter- disciplinary common problems and purposes, usually without a common management structure.
+system testing: The process of testing an integrated system to verify that it meets specified requirements.
+technical review:   A peer group discussion activity that focuses on achieving consensus on the technical approach to be taken.
+test approach:    The implementation of the test strategy for a specific project. It typically includes the decisions made that follow based on the (test) #project’s goal and the risk assessment carried out, starting points regarding the test process, the test design techniques to be applied, #exit criteria and test types to be performed.
+test architect:    (1) A person who provides guidance and strategic direction for a test organization and for its relationship with other disciplines.#(2) A person who defines the way testing is structured for a given system, including topics such as test tools and test data management.
+test automation:    The use of software to perform or support test activities, e.g. Test management, test design, test execution and results checking.
+test basis:    All documents from which the requirements of a component or system can be inferred. The documentation on which the test cases are based.
+test case:    A set of input values, execution preconditions, expected results and execution postconditions, developed for a particular objective or #test condition, such as to exercise a particular program path or to verify compliance with a specific requirement.
+test case specification:    A document specifying a set of test cases (objective, inputs, test actions, expected results, and execution preconditions) for a test item.
+test charter:   A statement of test objectives, and possibly test ideas about how to test. Test charters are used in exploratory testing.
+test closure:    During the test closure phase of a test process data is collected from completed activities to consolidate experience, testware, facts #and numbers. The test closure phase consists of finalizing and archiving the testware and evaluating the test process, including #preparation of a test evaluation report.
+test comparator:    A test tool to perform automated test comparison of actual results with expected results.
+test comparison:    The process of identifying differences between the actual results produced by the component or system under test and the expected #results for a test.
+test condition:    An item or event of a component or system that could be verified by one or more test cases, e.g. a function, transaction, feature, #quality attribute, or structural element.
+test control:    A test management task that deals with developing and applying a set of corrective actions to get a test project on track when #monitoring shows a deviation from what was planned.
+test cycle: Execution of the test process against a single identifiable release of the test object.
+test data:    Data that exists (for example, in a database) before a test is executed, and that affects or is affected by the component or system #under test.
+test data preparation tool:    A type of test tool that enables data to be selected from existing databases or created, generated, manipulated and edited for use in #testing.
+test data management:   The process of analyzing test data requirements, designing test data structures, creating and maintaining test data.
+test deliverable:   Any test (work) product that must be delivered to someone other than the test (work) product’s author.
+test design:    The process of transforming general testing objectives into tangible test conditions and test cases.
+test design specification:    A document specifying the test conditions (coverage items) for a test item, the detailed test approach and identifying the associated #high level test cases.
+test design technique:  Procedure used to derive and/or select test cases.
+test design tool:    A tool that supports the test design activity by generating test inputs from a specification that may be held in a CASE tool repository, #e.g. Requirements management tool, from specified test conditions held in the tool itself, or from code.
+test director:  A senior manager who manages test managers.
+test driven development:    A way of developing software where the test cases are developed, and often automated, before the software is developed to run those #test cases.
+test environment:    An environment containing hardware, instrumentation, simulators, software tools, and other support elements needed to conduct a test.
+test estimation:    The calculated approximation of a result related to various aspects of testing (e.g. Effort spent, completion date, costs involved, #number of test cases, etc.) which is usable even if input data may be incomplete, uncertain, or noisy.
+test evaluation report:    A document produced at the end of the test process summarizing all testing activities and results. It also contains an evaluation of #the test process and lessons learned.
+test execution: The process of running a test on the component or system under test, producing actual result(s).
+test execution automation:    The use of software, e.g. capture/playback tools, to control the execution of tests, the comparison of actual results to expected #results, the setting up of test preconditions, and other test control and reporting functions.
+test execution phase:    The period of time in a software development lifecycle during which the components of a software product are executed, and the software #product is evaluated to determine whether or not requirements have been satisfied.
+test execution schedule:    A scheme for the execution of test procedures. Note; The test procedures are included in the test execution schedule in their context #and in the order in which they are to be executed.
+test execution technique:   The method used to perform the actual test execution, either manual or automated.
+test execution tool:    A type of test tool that is able to execute other software using an automated test script, e.g. capture/playback.
+test harness:   A test environment comprised of stubs and drivers needed to execute a test.
+test implementation:    The process of developing and prioritizing test procedures, creating test data and, optionally, preparing test harnesses and writing #automated test scripts.
+test improvement plan:    A plan for achieving organizational test process improvement objectives based on a thorough understanding of the current strengths and #weaknesses of the organization’s test processes and test process assets.
+test infrastructure:    The organizational artifacts needed to perform testing, consisting of test environments, test tools, office environment and procedures.
+test input:    The data received from an external source by the test object during test execution. The external source can be hardware, software or human.
+test item:  The individual element to be tested. There usually is one test object and many test items.
+test level:    A group of test activities that are organized and managed together. A test level is linked to the responsibilities in a project. #Examples of test levels are component test, integration test, system test and acceptance test.
+test log:   A chronological record of relevant details about the execution of tests.
+test logging:   The process of recording information about tests executed into a test log.
+test management:    The planning, estimating, monitoring and control of test activities, typically carried out by a test manager.
+test management tool:    A tool that provides support to the test management and control part of a test process. It often has several capabilities, such as #testware management, scheduling of tests, the logging of results, progress tracking, incident management and test reporting.
+test manager:    The person responsible for project management of testing activities and resources, and evaluation of a test object. The individual who #directs, controls, administers, plans and regulates the evaluation of a test object.
+test mission:   The purpose of testing for an organization, often documented as part of the test policy.
+test monitoring:    A test management task that deals with the activities related to periodically checking the status of a test project. Reports are #prepared that compare the actuals to that which was planned.
+test object:    The component or system to be tested.
+test objective: A reason or purpose for designing and executing a test.
+test oracle:    A source to determine expected results to compare with the actual result of the software under test.
+test performance indicator:    A high level metric of effectiveness and/or efficiency used to guide and control progressive test development, #e.g. Defect Detection Percentage.
+test phase: A distinct set of test activities collected into a manageable phase of a project, e.g. the execution activities of a test level.
+test plan:    A document describing the scope, approach, resources and schedule of intended test activities. It identifies amongst others test items, #the features to be tested, the testing tasks, who will do each task, degree of tester independence, the test environment, the test design #techniques and entry and exit criteria to be used, and the rationale for their choice, and any risks requiring contingency planning. #It is a record of the test planning process.
+test planning:  The activity of establishing or updating a test plan.
+test policy:    A high level document describing the principles, approach and major objectives of the organization regarding testing.
+test procedure specification:    A document specifying a sequence of actions for the execution of a test. Also known as test script or manual test script.
+test process:    The fundamental test process comprises test planning and control, test analysis and design, test implementation and execution, #evaluating exit criteria and reporting, and test closure activities.
+test process improver:  A person implementing improvements in the test process based on a test improvement plan.
+test progress report:    A document summarizing testing activities and results, produced at regular intervals, to report progress of testing activities against #a baseline (such as the original test plan) and to communicate risks and alternatives requiring a decision to management.
+test reproducibility:   An attribute of a test indicating whether the same results are produced each time the test is executed.
+test run:   Execution of a test on a specific version of the test object.
+test schedule:    A list of activities, tasks or events of the test process, identifying their intended start and finish dates and/or times, and #interdependencies.
+test script:    Commonly used to refer to a test procedure specification, especially an automated one.
+test session:    An uninterrupted period of time spent in executing tests. In exploratory testing, each test session is focused on a charter, but testers #can also explore new opportunities or issues during a session. The tester creates and executes test cases on the fly and records their #progress.
+test specification: A document that consists of a test design specification, test case specification and/or test procedure specification.
+test strategy:    A high-level description of the test levels to be performed and the testing within those levels for an organization or programme (one #or more projects).
+test suite:    A set of several test cases for a component or system under test, where the post condition of one test is often used as the precondition #for the next one.
+test summary report:    A document summarizing testing activities and results. It also contains an evaluation of the corresponding test items against exit #criteria.
+test tool:    A software product that supports one or more test activities, such as planning and control, specification, building initial files and #data, test execution and test analysis.
+test type:    A group of test activities aimed at testing a component or system focused on a specific test objective, i.e. functional test, usability #test, regression test etc.
+testability:    The capability of the software product to enable modified software to be tested.
+testability review:    A detailed check of the test basis to determine whether the test basis is at an adequate quality level to act as an input document for #the test process.
+testable requirement:    A requirements that is stated in terms that permit establishment of test designs (and subsequently test cases) and execution of tests #to determine whether the requirement has been met.
+tester: A skilled professional who is involved in the testing of a component or system.
+testing:    The process consisting of all lifecycle activities, both static and dynamic, concerned with planning, preparation and evaluation of #software products and related work products to determine that they satisfy specified requirements, to demonstrate that they are fit for #purpose and to detect defects.
+testware:    Artifacts produced during the test process required to plan, design, and execute tests, such as documentation, scripts, inputs, #expected results, set- up and clear-up procedures, files, databases, environment, and any additional software or utilities used in testing.
+thread testing:    An approach to component integration testing where the progressive integration of components follows the implementation of subsets of #the requirements, as opposed to the integration of components by levels of a hierarchy.
+three point estimation:    A test estimation method using estimated values for the “best case”, “worst case”, and “most likely case” of the matter being estimated, #to define the degree of certainty associated with the resultant estimate.
+top-down testing:   An incremental approach to integration testing where the component at the top of the component hierarchy is tested first, with lower #level components being simulated by stubs. Tested components are then used to test lower level components. The process is repeated until #the lowest level components have been tested.
+traceability:   The ability to identify related items in documentation and software, such as requirements with associated tests.
+transactional analysis:    The analysis of transactions between people and within people’s minds; a transaction is defined as a stimulus plus a response. #Transactions take place between people and between the ego states (personality segments) within one person’s mind.
+transcendent-based quality:    A view of quality, wherein quality cannot be precisely defined, but we know it when we see it, or are aware of its absence when it is #missing. Quality depends on the perception and affective feelings of an individual or group of individuals towards a product.
+understandability:    The capability of the software product to enable the user to understand whether the software is suitable, and how it can be used for #particular tasks and conditions of use.
+unit test framework:    A tool that provides an environment for unit or component testing in which a component can be tested in isolation or with suitable #stubs and drivers. It also provides other support for the developer, such as debugging capabilities.
+unreachable code:   Code that cannot be reached and therefore is impossible to execute.
+usability:  The capability of the software to be understood, learned, used and attractive to the user when used under specified conditions.
+usability testing:    Testing to determine the extent to which the software product is understood, easy to learn, easy to operate and attractive to the users #under specified conditions.
+use case:    A sequence of transactions in a dialogue between an actor and a component or system with a tangible result, where an actor can be a user #or anything that can exchange information with the system.
+use case testing:   A black box test design technique in which test cases are designed to execute scenarios of use cases.
+user-based quality:    A view of quality, wherein quality is the capacity to satisfy needs, wants and desires of the user(s). A product or service that does #not fulfill user needs is unlikely to find any users. This is a context dependent, contingent approach to quality since different business #characteristics require different qualities of a product.
+user story:    A high-level user or business requirement commonly used in agile software development, typically consisting of one or more sentences in #the everyday or business language capturing what functionality a user needs, any non-functional criteria, and also includes acceptance #criteria.
+user story testing:    A black box test design technique in which test cases are designed based on user stories to verify their correct implementation.
+user test:  A test whereby real-life users are involved to evaluate the usability of a component or system.
+validation:    Confirmation by examination and through provision of objective evidence that the requirements for a specific intended use or application #have been fulfilled.
+value-based quality:    A view of quality, wherein quality is defined by price. A quality product or service is one that provides desired performance at an #acceptable cost. Quality is determined by means of a decision process with stakeholders on trade-offs between time, effort and cost aspects.
+variable:   An element of storage in a computer that is accessible by a software program by referring to it by a name.
+verification:   Confirmation by examination and through provision of objective evidence that specified requirements have been fulfilled.
+vertical traceability:  The tracing of requirements through the layers of development documentation to components.
+volume testing: Testing where the system is subjected to large volumes of data.
+walkthrough:    A step-by-step presentation by the author of a document in order to gather information and to establish a common understanding of its #content.
+white-box test design technique:    Procedure to derive and/or select test cases based on an analysis of the internal structure of a component or system.
+white-box testing:  Testing based on an analysis of the internal structure of the component or system.
+wild pointer:   A pointer that references a location that is out of scope for that pointer or that does not exist.
