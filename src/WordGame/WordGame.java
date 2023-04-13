@@ -43,11 +43,12 @@ public class WordGame {
 
         ArrayList<Character> guessList = new ArrayList<>(); // The list to store the prediction letters we make
 
+        System.err.println("〉〉〉 Explanation :");
+        Thread.sleep(250);
+
         //// for long explanations to fit in the console /////
 
         String[] explanationParts = searchTerm[1].split("#");
-        System.err.println("〉〉〉 Explanation :");
-        Thread.sleep(250);
         for (String s : explanationParts) {
             System.out.println("\033[0;1m" + s);  //  "\033[0;1m"  --> for bold
         }
@@ -59,11 +60,11 @@ public class WordGame {
         System.out.println("〉〉〉 You can guess " + MaxNumOfIncorrectGuess + " TIMES incorrectly.");
 
 ///////////////////////////////////////////  Main operations  /////////////////////////////////////////////////////
+
         int hintCount = 0;                          //  For one time use hint
         while (MaxNumOfIncorrectGuess != 0) {
             String guess;
             do {
-
                 System.out.print("\n⌲⌲⌲ Please enter your letter guess: ");
 
                 guess = scan.nextLine();
@@ -98,15 +99,13 @@ public class WordGame {
 
             guessList.add(guess.charAt(0));
 
-            if (!secretWord.contains(guess)) {
-                MaxNumOfIncorrectGuess--;
-            }
             Thread.sleep(1000);
 
             if (secretWord.contains(guess)) {
                 System.out.println(GREEN_BRIGHT + "\tCORRECT GUESS 👍🏻" + ANSI_RESET);
             } else {
                 System.err.println(RED_BRIGHT + "\tIncorrect Guess 👎🏻" + ANSI_RESET);
+                MaxNumOfIncorrectGuess--;
             }
             Thread.sleep(100);
             String guessWord = maskWord(secretWord, guessList);
@@ -117,15 +116,14 @@ public class WordGame {
             //////////////////////// result part //////////////////////
 
             if (guessWord.equals(secretWord)) {
-
                 System.out.println(GREEN_BOLD + "\n\t\t 🎖🏅🎖🥇🎖 CONGRATULATIONS 🎖🏅🎖🥇🎖\n" + ANSI_RESET);
                 System.out.println("\033[0;1m" + "...:. " + secretWord);
                 for (String s : explanationParts) {                   // for long explanations to fit in the console
                     System.out.println(s);
                 }
                 break;
-
             }
+
             if (MaxNumOfIncorrectGuess == 0) {
                 System.out.println(RED_BOLD + "\n\t\t  ❌❌😢❌❌ YOU FAILED ❌❌😢❌❌\n" + ANSI_RESET);
                 System.out.println("\033[0;1m" + "searched term: " + secretWord);
@@ -147,6 +145,7 @@ public class WordGame {
     }
 
     ///////////////////////////////// make the searched word appear masked////////////////////////////////////
+
     public static String maskWord(String secretWord, ArrayList<Character> guessList) {
 
         String result = "";
