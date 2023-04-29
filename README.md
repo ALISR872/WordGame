@@ -2,11 +2,12 @@
 This is a funny exercise
 
 
+  ### Purpose and Scope
 
-    ###Purpose and Scope
-This is a game using terms from the "ISTQB Software Testing Glossary" published by ISTQB. The aim is to master software testing terms, prepare for the ISTQB exam, have fun and try to detect bugs by looking at the software written with the eyes of a tester. 
+This is a game using terms from the "ISTQB Software Testing Glossary" published by ISTQB. The aim is to master software testing terms, prepare for the ISTQB exam, have fun and try to detect bugs by looking at the software written with the eyes of a tester.
 
-    ###Features of the game
+  ### Features of the game
+
 **1-)**	When you run the program, the first thing you will see in the console is the ISTQB dictionary definition of the term you are trying to guess. 
 
 ` 〉〉〉 Explanation :
@@ -22,19 +23,19 @@ This is a game using terms from the "ISTQB Software Testing Glossary" published 
 
 **4-)**	Then the information message will appear where you will start guessing the letters to find the hidden term.
 
-` 〉〉〉Now, you will try to find the term by guessing the letters.🤔 `
-	
-    Just below, you will see a reminder that you can use your  hint only one time.  Yes, you can indeed use one time  hint in the game. If you type "hint" in the field where you will write your guess, you will see that a letter will be opened as many times as the number it contains.
+ `〉〉〉Now, you will try to find the term by guessing the letters.🤔`
 
-` 〉〉〉 DON'T FORGET, you can use hint once by typing "hint". `
+  Just below, you will see a reminder that you can use your  hint only one time.  Yes, you can indeed use one time  hint in the game. If you type "hint" in the field where you will write your guess, you will see that a letter will be opened as many times as the number it contains.
+ 
+`〉〉〉 DON'T FORGET, you can use hint once by typing "hint". `
 
- 	And then, you will then see an information note about how many times you can guess incorrectly. 
+  And then, you will then see an information note about how many times you can guess incorrectly.
 
 `  〉〉〉 You can guess 6 times incorrectly .`
 
-    Depending on the number of different letters in the term you are trying to guess, the number of incorrect guesses will change. 5 for some terms, 6 for some, and 7 for some.
-If the term contains many different letters, your chances of guessing correctly will increase. Therefore, you will have less right to make incorrect guesses.(min 5)
-If the term contains fewer different letters, you will have less chances to guess correctly. Therefore, you will have more right to make incorrect guesses.(max 7)
+   Depending on the number of different letters in the term you are trying to guess, the number of incorrect guesses will change. 5 for some terms, 6 for some, and 7 for some.
+   If the term contains many different letters, your chances of guessing correctly will increase. Therefore, you will have less right to make incorrect guesses.(min 5)
+   If the term contains fewer different letters, you will have less chances to guess correctly. Therefore, you will have more right to make incorrect guesses.(max 7)
 
 **5-)**	Then you will be asked to enter your prediction. You can uppercase or lowercase your prediction.
 
@@ -48,7 +49,7 @@ If the term contains fewer different letters, you will have less chances to gues
   ⍄ Number of hints remaining : 1
   ⍄ Number of incorrect guesses remaining: 6 `
 
-    You will see that the letter you guessed correctly appears in the masked view and the remaining number of incorrect guesses remains unchanged.
+   You will see that the letter you guessed correctly appears in the masked view and the remaining number of incorrect guesses remains unchanged.
 
 
 **7-)**	For example, let's say your next guess is the letter "b" and is incorrect. You will see the following output in the console.
@@ -58,7 +59,7 @@ If the term contains fewer different letters, you will have less chances to gues
   ⍄ Number of hints remaining : 1
   ⍄ Number of incorrect guesses remaining: 5 `
 
-    You will see that there is no change in the masked view and the number of false predictions remaining has decreased by one.
+   You will see that there is no change in the masked view and the number of false predictions remaining has decreased by one.
 
 **8-)**	If you retype a letter you have already typed, you will see a warning message like the one below. And this mistake does not reduce your number of incorrect guesses remaining.
 
