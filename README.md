@@ -1,7 +1,7 @@
 # WordGame.WordGame
 This is a funny exercise
 
-```
+
 
     ###Purpose and Scope**
 This is a game using terms from the "ISTQB Software Testing Glossary" published by ISTQB. The aim is to master software testing terms, prepare for the ISTQB exam, have fun and try to detect bugs by looking at the software written with the eyes of a tester. 
@@ -9,8 +9,8 @@ This is a game using terms from the "ISTQB Software Testing Glossary" published 
     ###Features of the game**
 **1-)**	When you run the program, the first thing you will see in the console is the ISTQB dictionary definition of the term you are trying to guess. 
 
- ( 〉〉〉 Explanation :
-  " The behavior produced/observed when a component or system is tested.") 
+“` 〉〉〉 Explanation :
+  " The behavior produced/observed when a component or system is tested." “` 
 
 **2-)**	Under the explanation section, there will be an expression showing how many words the term you are looking for consists of. 
 
