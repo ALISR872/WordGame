@@ -123,7 +123,6 @@ public class WordGame {
                 }
                 break;
             }
-
             if (MaxNumOfIncorrectGuess == 0) {
                 System.out.println(RED_BOLD + "\n\t\t  ❌❌😢❌❌ YOU FAILED ❌❌😢❌❌\n" + ANSI_RESET);
                 System.out.println("\033[0;1m" + "searched term: " + secretWord);
